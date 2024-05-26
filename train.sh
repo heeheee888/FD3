@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 train_optic.py --data_dir /home/hdd3/resume_optic/data/train/ --lr 1e-4 --resume_checkpoint 0 --step_num 10 --noise False --workdir ./workdir/optic
