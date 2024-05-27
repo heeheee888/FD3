@@ -120,7 +120,6 @@ def IIR(x_1, t=1., N=100, delta=None, clip=False,gt=None, input=None):
             for num in tqdm(range(int(t / delta))):
 
                 x_t = x_t_delta
-                x_t = x_t.requires_grad_()
                 t_in = (torch_t * 1000).type(torch.long)
 
                 t_tensor = torch_t.view(len(x_t), 1, 1, 1)
