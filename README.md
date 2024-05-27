@@ -26,12 +26,11 @@ Through extensive experiments, we show that FD3 establishes the new state-of-the
 - For the hazy image, we applied light transmission disturbance, image blurring, and retinal artifacts
 - For the ground-truth, we enhanced it using CLAHE(Contrast Limited Adaptive Histogram Equalization)
 
-[FPE dataset](https://drive.google.com/file/d/145LjGAyODkP2xOP8sMwYJG5UG3uLyhf1/view?usp=sharing)
+[FPE dataset](https://drive.google.com/file/d/156TQtOpPEe5RXFF6PmdO9emyYFdpeiLU/view?usp=sharing)
 We additionally publish data of fundus photos collected from the Kangnam Sacred Heart Hospital, Hallym University School of Medicine, Seoul, South Korea (IRB approval number: 2022-10-026), which contains the following three directories
 - good: 1152 high-quality images of varying resolution
 - bad:
     - cataract: 40 hazy images stemming from the bad eye condition
-    - small_pupil: 10 low quality images due to small pupil size of the subject
     - general: 10 low quality images due to arbitrary reasons
 - before_after_surgery:
     - two subfolders containing fundus photos before and after cataract surgery
