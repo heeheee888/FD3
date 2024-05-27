@@ -27,7 +27,7 @@ parser.add_argument('--lr', required=True,type=float, help='learning rate')
 parser.add_argument('--resume_checkpoint', type=int,help='resume checkpoint, if no, then None')
 parser.add_argument('--step_num',type=int,help='number of step size(sampling number)')
 parser.add_argument('--data_dir', type=str, help='define the data path')
-parser.add_argument('--noise', type=bool, default = False, help='define the data path')
+parser.add_argument('--noise', type=bool, default = False, help='add noise to the input or not')
 parser.add_argument('--workdir', type=str, help='define the work directory')
 args = parser.parse_args()
 lr = args.lr
